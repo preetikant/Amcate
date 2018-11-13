@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Form</title>
+    <link rel="stylesheet" href="./css/base.css" >
+</head>
+<body>
+<form method="POST" action="/" class="main">
+    <table >
+        <tr>
+            <td colspan="2" >
+                <h2>Student Registration Form</h2>
+            </td>
+        </tr>
+    </table>
+    <label>Name: </label>
+    <input type="text" placeholder="Enter Your Name" name="name" value=""/></br></br>
+    <label>DOB: </label>
+    <input type="date" placeholder="Enter Your DOB" name="dob" value=""/></br></br>
+    <label>Email: </label>
+    <input type="email" placeholder="Enter Your Email" name="email_id" value=""/></br></br>
+    <label>Phone Number: </label>
+    <input type="text" placeholder="Enter Phone Number" name="phone_number" value=""/></br></br>
+    <button class="btn" onclick="return validate();">Submit</button>
+</form>
+
+<script src="javaScript" href="./insert.js"></script>
+<script src="javaScript" href="./validation.js"></script>
+</body>
+</html>
